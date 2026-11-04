@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>SixtyBoogie-Bside HOME</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>シックスティ⭐︎ブギ B面｜しいなまん</title>
+<meta name="description" content="作・出演 しいなまん。2027年2月26日〜28日、東京・新大久保 スタジオエヴァにて上演。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #C7A67A;
+  --ink: #1F1810;
+  --hi: #F4ECDD;
+  --sh: #F4ECDD;
+  --tag: #EADBBF;
+  --display: "Dela Gothic One", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+  --label: "DotGothic16", "Hiragino Sans", "Yu Gothic", "Meiryo", monospace;
+  --body: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  color-scheme: light;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --paper: #2A2521; --ink: #EFE5D0; --hi: #EFE5D0; --sh: #000; --tag: #3A332D; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --paper: #2A2521; --ink: #EFE5D0; --hi: #EFE5D0; --sh: #000; --tag: #3A332D; color-scheme: dark; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0; color: var(--ink); font-family: var(--body); font-weight: 700; line-height: 1.8; overflow-x: hidden;
+  background-color: var(--paper);
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.02 .55' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .18 0 0 0 0 .06 0 0 0 .35 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23f)'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .25 0 0 0 0 .15 0 0 0 0 .05 0 0 0 .5 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.wrap { max-width: 900px; margin: 0 auto; padding: 36px 20px 56px; display: grid; gap: 28px; }
+.sheet { border: 2px solid var(--ink); padding: 8px; }
+.sheet > div { border: 1px solid var(--ink); padding: 32px 18px 40px; display: grid; gap: 28px; }
+@media (min-width: 700px) { .sheet > div { padding: 52px 48px 56px; } }
+
+.tape { display: inline-block; margin: 0; padding: 2px 14px; background: var(--ink); color: var(--paper); font-family: var(--label); font-size: 1.05rem; line-height: 1.6; letter-spacing: .08em; }
+.hero { text-align: center; }
+h1 {
+  margin: 18px 0 0; font-family: var(--display); font-weight: 400; color: var(--ink);
+  font-size: clamp(2.6rem, 12.5vw, 6.6rem); line-height: 1.12;
+  text-shadow: 3px 3px 0 var(--sh);
+}
+h1 .star { display: inline-block; width: .74em; height: .74em; vertical-align: -.02em; filter: drop-shadow(3px 3px 0 var(--sh)); }
+.bside {
+  display: inline-block; margin: 20px 0 0; padding: 0 34px 2px; border-radius: 999px;
+  border: 4px double var(--hi); transform: rotate(-3deg);
+  font-family: var(--display); font-size: clamp(1.9rem, 7vw, 3rem); line-height: 1.4;
+  color: transparent; -webkit-text-stroke: 2px var(--hi);
+}
+.credit { margin: 26px 0 0; font-size: 1.15rem; letter-spacing: .1em; }
+.credit b { font-family: var(--display); font-weight: 400; font-size: 1.6rem; margin-left: .4em; }
+
+h2 { margin: 0 0 12px; display: inline-block; padding: 0 .8em; background: var(--ink); color: var(--paper); font-family: var(--display); font-weight: 400; font-size: 1.25rem; }
+.panel { border: 2px solid var(--ink); padding: 22px; }
+.days { list-style: none; margin: 0; padding: 0; }
+.days li { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; padding: 12px 0; border-top: 2px dashed var(--ink); }
+.days li:first-child { border-top: 0; padding-top: 0; }
+.date { font-family: var(--display); font-size: 1.6rem; min-width: 6.2em; line-height: 1.4; }
+.date small { font-family: var(--body); font-size: 1rem; font-weight: 900; margin-left: .15em; }
+.times { display: flex; gap: 10px; flex-wrap: wrap; }
+.times .tape { font-size: 1.6rem; padding: 0 14px; }
+.two { display: grid; gap: 28px; }
+@media (min-width: 700px) { .two { grid-template-columns: 1fr 1fr; } }
+.venue { margin: 0; font-family: var(--display); font-size: 1.9rem; line-height: 1.4; }
+.venue + p { margin: 0; }
+
+.tag { position: relative; background: var(--tag); border: 2px solid var(--ink); border-radius: 8px; padding: 44px 22px 20px; }
+.tag::before { content: ""; position: absolute; top: 14px; left: 50%; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; background: var(--paper); border: 2px solid var(--ink); }
+.price { display: flex; justify-content: space-between; align-items: baseline; padding: 4px 0; font-size: 1.15rem; }
+.price + .price { border-top: 2px dashed var(--ink); }
+.price b { font-family: var(--display); font-weight: 400; font-size: 1.9rem; }
+
+.cta { text-align: center; }
+.btn {
+  display: inline-block; padding: 14px 34px; text-decoration: none; background: var(--ink); color: var(--paper);
+  font-family: var(--display); font-size: 1.3rem; border-radius: 4px; box-shadow: 5px 5px 0 var(--hi);
+  transition: transform .15s, box-shadow .15s;
+}
+.btn:hover { transform: translate(3px, 3px); box-shadow: 2px 2px 0 var(--hi); }
+.btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 5px; }
+.url { margin: 14px 0 0; font-size: .85rem; word-break: break-all; }
+footer { text-align: center; font-size: .85rem; }
+</style>
 </head>
 <body>
-  <h1>シックスティ⭐︎ブギ　B面</h1>
-  <p>これから工事するよ</p>
+<div class="wrap"><div class="sheet"><main>
+  <header class="hero">
+    <p class="tape">2027年2月26日 〜 28日</p>
+    <h1>シックスティ<br><svg class="star" viewBox="0 0 24 24" role="img" aria-label="星"><path fill="currentColor" d="M12 1.5l3.1 6.9 7.4.8-5.5 5 1.6 7.4L12 17.8 5.4 21.6 7 14.2 1.5 9.2l7.4-.8z"/></svg>ブギ</h1>
+    <p class="bside">B面</p>
+    <p class="credit">作・出演<b>しいなまん</b></p>
+  </header>
+
+  <section class="panel">
+    <h2>日時</h2>
+    <ul class="days">
+      <li><span class="date">2月26日<small>（金）</small></span><span class="times"><span class="tape">19:30</span></span></li>
+      <li><span class="date">2月27日<small>（土）</small></span><span class="times"><span class="tape">14:00</span><span class="tape">19:00</span></span></li>
+      <li><span class="date">2月28日<small>（日）</small></span><span class="times"><span class="tape">14:00</span></span></li>
+    </ul>
+  </section>
+
+  <div class="two">
+    <section class="panel">
+      <h2>場所</h2>
+      <p class="venue">スタジオエヴァ</p>
+      <p>東京・新大久保</p>
+    </section>
+    <section class="tag">
+      <h2>チケット</h2>
+      <div class="price"><span>前売り</span><b>3,500円</b></div>
+      <div class="price"><span>当日</span><b>4,000円</b></div>
+    </section>
+  </div>
+
+  <div class="cta">
+    <a class="btn" href="https://siinamanlive.github.io/sixtyboogie-Bside/" target="_blank" rel="noopener">公演サイトを見る</a>
+    <p class="url">https://siinamanlive.github.io/sixtyboogie-Bside/</p>
+  </div>
+  <footer>© しいなまん</footer>
+</main></div></div>
 </body>
 </html>
